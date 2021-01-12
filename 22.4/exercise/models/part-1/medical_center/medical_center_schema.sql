@@ -9,6 +9,7 @@
 
 \c postgres
 
+DROP SCHEMA IF EXISTS medical_center CASCADE;
 DROP DATABASE IF EXISTS medical_center;
 
 CREATE DATABASE medical_center;
